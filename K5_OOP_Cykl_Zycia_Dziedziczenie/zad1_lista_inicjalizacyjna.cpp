@@ -1,4 +1,4 @@
-// Zadanie 1 - Lista Inicjalizacyjna (Podstawy)
+// Zadanie 1 - Lista Inicjalizacyjna 
 // Cel: roznica miedzy inicjalizacja a przypisaniem.
 // Pola const oraz referencje MUSZA byc zainicjalizowane w momencie tworzenia.
 //
