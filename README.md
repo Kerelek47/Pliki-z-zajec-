@@ -14,7 +14,7 @@ cpp-labs/
 └── (kolejne labki: K6, K7, ...)
 ```
 
-## Kolejne zajecia
+## Laboratoria
 
 - **K6**: Przeciazanie operatorow, Szablony, Wyjatki.
 
