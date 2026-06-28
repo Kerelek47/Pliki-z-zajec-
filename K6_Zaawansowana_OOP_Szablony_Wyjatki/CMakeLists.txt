@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.15)
+project(K6_Zaawansowana_OOP_Szablony_Wyjatki CXX)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+add_executable(zad1 zad1_wirtualny_destruktor.cpp)
+add_executable(zad2 zad2_override_final.cpp)
+add_executable(zad3 zad3_kolekcje_polimorficzne.cpp)
+add_executable(zad4 zad4_dynamic_cast.cpp)
+add_executable(zad5 zad5_interfejsy.cpp)
+add_executable(zad6 zad6_kompozycja.cpp)
+add_executable(zad7 zad7_szablony_funkcji.cpp)
+add_executable(zad8 zad8_wyjatki.cpp)
+add_executable(zad9 zad9_wlasne_wyjatki.cpp)
