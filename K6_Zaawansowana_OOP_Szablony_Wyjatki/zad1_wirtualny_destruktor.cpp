@@ -6,10 +6,7 @@
 // wola TYLKO destruktor bazy -> destruktor klasy pochodnej sie nie wykona
 // -> wyciek zasobow zaalokowanych w klasie pochodnej.
 //
-// UWAGA: w tej labce Employee jest abstrakcyjna (ma funkcje wirtualne),
-// wiec aby CZYSTO pokazac efekt braku wirtualnego destruktora, robimy to
-// na osobnej, minimalnej parze klas Base/Derived bez innych funkcji wirtualnych.
-// Dolaczone jest tez wlasciwe rozwiazanie (klasy z virtual ~Base()).
+
 
 #include <iostream>
 
