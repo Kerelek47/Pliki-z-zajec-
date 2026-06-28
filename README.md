@@ -3,7 +3,7 @@
 Rozwiązania zadań laboratoryjnych z C++. Każda labka ma własny katalog z plikami `.cpp`,
 plikiem `CMakeLists.txt` i własnym README.
 
-## Labki
+## Laboratorium
 
 | Katalog | Tematyka |
 |---------|----------|
