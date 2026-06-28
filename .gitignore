@@ -1,0 +1,27 @@
+# Build
+build/
+cmake-build-*/    # CLion
+out/
+
+# Pliki wykonywalne
+*.exe
+*.out
+*.app
+zad[0-9]
+
+# Obiekty / biblioteki
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+
+# IDE
+.vs/
+.idea/
+.vscode/
+
+# System
+.DS_Store
+Thumbs.db

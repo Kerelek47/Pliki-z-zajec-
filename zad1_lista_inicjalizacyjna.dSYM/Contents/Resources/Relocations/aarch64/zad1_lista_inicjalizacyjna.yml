@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/karolmichalak/Downloads/Rozwiązania PPC-N-K5-1/zad1_lista_inicjalizacyjna"
+relocations:     []
+...
