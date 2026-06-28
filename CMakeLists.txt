@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.15)
+project(K5_OOP_Cykl_Zycia_Dziedziczenie CXX)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Kazde zadanie = osobny target (latwiej uruchomic/bronic pojedynczo)
+add_executable(zad1 zad1_lista_inicjalizacyjna.cpp)
+add_executable(zad2 zad2_delegowanie_konstruktorow.cpp)
+add_executable(zad3 zad3_destruktor_raii.cpp)
+add_executable(zad4 zad4_skladowe_statyczne.cpp)
+add_executable(zad5 zad5_dziedziczenie.cpp)
+add_executable(zad6 zad6_protected.cpp)
+add_executable(zad7 zad7_wiazanie_statyczne.cpp)
+add_executable(zad8 zad8_funkcje_wirtualne.cpp)
+add_executable(zad9 zad9_klasy_abstrakcyjne.cpp)
