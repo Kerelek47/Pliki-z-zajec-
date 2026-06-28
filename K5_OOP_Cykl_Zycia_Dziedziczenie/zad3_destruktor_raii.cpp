@@ -1,9 +1,7 @@
 // Zadanie 3 - Destruktor i RAII
 // Cel: automatyczne zarzadzanie pamiecia (idiom RAII).
 // W C++ nie ma Garbage Collectora - pamiec z new musi zwolnic delete.
-//
-// Pytanie: kiedy pojawi sie "Deallocated"?
-// Odpowiedz: przy wyjsciu z bloku { ... }, czyli PRZED "End".
+
 // Kolejnosc: Start -> Allocated 100 -> Deallocated -> End.
 
 #include <iostream>
