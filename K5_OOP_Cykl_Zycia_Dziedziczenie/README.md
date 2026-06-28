@@ -11,16 +11,14 @@ cpp-labs/
 │   ├── zad1_...cpp ... zad9_...cpp
 │   ├── CMakeLists.txt
 │   └── README.md
-└── (kolejne labki: K6, K7, ...)
 ```
 
 ## Laboratoria
 
 - **K6**: Przeciazanie operatorow, Szablony, Wyjatki.
 
-## Jak dodawac nowa labke
 
-1. Stworz katalog `Kx_Temat/`.
-2. Wrzuc pliki `.cpp` (jeden plik = jedno zadanie).
-3. Skopiuj `CMakeLists.txt` z poprzedniej labki i podmien nazwy plikow.
-4. Dopisz wpis do tej tabeli.
+
+
+
+
