@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.15)
+project(L6_2_Operatory_Szablony_Klas CXX)
+
+# C++17 - wymagane przez [[nodiscard]] (zad1) i if constexpr (zad8)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+add_executable(zad1 zad1_operatory_binarne.cpp)
+add_executable(zad2 zad2_operatory_porownania.cpp)
+add_executable(zad3 zad3_operator_strumieniowy.cpp)
+add_executable(zad4 zad4_szablon_klasy.cpp)
+add_executable(zad5 zad5_metody_poza_klasa.cpp)
+add_executable(zad6 zad6_parametry_non_type.cpp)
+add_executable(zad7 zad7_specjalizacja.cpp)
+add_executable(zad8 zad8_noexcept.cpp)
+add_executable(zad9 zad9_safearray.cpp)
