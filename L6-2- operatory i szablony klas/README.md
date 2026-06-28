@@ -19,7 +19,7 @@ Kazde zadanie to osobny plik `.cpp` z `main`.
 
 ## Kompilacja
 
-Ta labka wymaga **C++17** (`[[nodiscard]]` w zad1, `if constexpr` w zad8).
+Ta zadania wymagaja **C++17** (`[[nodiscard]]` w zad1, `if constexpr` w zad8).
 
 ### Pojedynczy plik (g++)
 ```bash
@@ -34,14 +34,4 @@ cmake --build build
 ./build/zad1
 ```
 
-## Uwagi do obrony
 
-- **zad1**: operator binarny ma `const` na koncu (nie zmienia `this`), bierze argument przez `const&` (bez kopii), zwraca nowy obiekt przez wartosc. `[[nodiscard]]` ostrzega, gdy zignorujesz wynik.
-- **zad2**: operatory relacyjne zwracaja `bool`; `!=` implementujemy jako `!(*this == other)` (DRY). `std::boolalpha` wypisuje `true`/`false`.
-- **zad3**: `<<` nie moze byc metoda, bo lewy argument to strumien - dlatego `friend`. Zwracamy `std::ostream&` dla kaskadowosci. W definicji nie ma `Vector2D::`.
-- **zad4**: `template <typename T>` to wzorzec; `Box<int>` i `Box<double>` to rozne typy. Kompilator instancjuje osobny kod per typ.
-- **zad5**: definicja metody poza klasa musi miec `template <typename T>` i pelna nazwe `Box<T>::metoda`. W praktyce szablony trzyma sie w naglowkach `.hpp`.
-- **zad6**: parametr non-type (`int size`) musi byc znany w czasie kompilacji. `StaticArray<int,5>` i `StaticArray<int,6>` to rozne typy. Tablica na stosie, bez `new`.
-- **zad7**: `template <>` = pelna specjalizacja. Specjalizacja jest autonomiczna - nie dziedziczy nic z szablonu ogolnego, wlasne pole i metody.
-- **zad8**: `noexcept` na koncu funkcji = obietnica (deklaracja); `noexcept(wyr)` w kodzie = sprawdzenie (operator, zwraca bool). Funkcja `noexcept`, ktora rzuci, woła `std::terminate()`. `if constexpr` wybiera galaz w czasie kompilacji.
-- **zad9**: laczy szablon + non-type + operator `[]` + wyjatki. Dwie wersje `[]` (zwykla i `const`); zwracanie przez `T&` pozwala modyfikowac element. Kontrola indeksu rzuca `std::out_of_range`.
